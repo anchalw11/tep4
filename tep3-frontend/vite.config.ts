@@ -20,10 +20,4 @@ export default defineConfig({
       },
     },
   },
-  define: {
-    // Expose environment variables to the client
-    'process.env.VITE_API_BASE': JSON.stringify(process.env.VITE_API_BASE),
-    'process.env.VITE_SUPABASE_URL': JSON.stringify(process.env.VITE_SUPABASE_URL),
-    'process.env.VITE_SUPABASE_ANON_KEY': JSON.stringify(process.env.VITE_SUPABASE_ANON_KEY),
-  },
 })
