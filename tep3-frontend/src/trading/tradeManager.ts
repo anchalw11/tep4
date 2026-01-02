@@ -6,3 +6,5 @@ export const tradeManager = {
 };
 
 export default tradeManager;
+export const openTrade = {};
+export const closeTrade = {};
