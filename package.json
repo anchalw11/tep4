@@ -1,0 +1,10 @@
+{
+  "name": "tep4-project",
+  "version": "1.0.0",
+  "description": "Trading Education Platform",
+  "scripts": {
+    "dev": "cd tep3-frontend && npm run dev",
+    "build": "cd tep3-frontend && npm run build",
+    "install": "cd tep3-frontend && npm install"
+  }
+}
